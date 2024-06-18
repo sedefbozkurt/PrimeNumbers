@@ -2,12 +2,15 @@ def sieveOfEratosthenes(start, end):
     if start < 2:
         start = 2
 
+    # Asal sayıları saklamak için bir liste
     primeList = []
+    # 0'dan end değerine kadar olan tüm sayıların başlangıçta asal olduklarını varsay
     isPrime = [True for _ in range(end + 1)]
     p = 2
 
     while p ** 2 <= end:
         if isPrime[p]:
+            # p'nin katı olan sayılar asal değildir ve false olarak işaretlenir
             for i in range(p ** 2, end + 1, p):
                 isPrime[i] = False
         p += 1
