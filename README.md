@@ -1,4 +1,4 @@
-# PrimeNumbers
+# prime-numbers
 
 Bu depo asal sayılarla çalışmak için çeşitli uygulamalar ve yardımcı programlar içerir.
 Asal sayılar oluşturmaya, bir sayının asal olup olmadığını kontrol etmeye ve diğer ilgili işlevlere yönelik algoritmalar içerir.
